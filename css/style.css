@@ -9,7 +9,7 @@ main{
 
 
 
-.menu{
+.header__menu{
     color: black;
     display: flex;
     justify-content: space-between;
@@ -25,15 +25,15 @@ main{
     flex-wrap: inherit;
 }
 
-.menu ul{
+.header__menu ul{
     display: flex;
 }
 
-.menu li{
+.header__menu li{
     display: inherit;
 }
 
-.menu a{
+.header__menu a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -43,7 +43,7 @@ main{
     font-weight: 500;
 }
 
-.menu a:hover{
+.header__menu a:hover{
     background-color: purple;
     color: white;
     border-radius: 10px;
@@ -55,16 +55,16 @@ main{
     margin-bottom: 100px;
 }
 
-.banner .hero{
+.banner .banner__hero{
     display: flex;
     justify-content: space-between;
 }
 
-.hero{
+.banner__hero{
     text-align: center;
 }
 
-.hero .text-hero{
+.banner__hero .banner__text-hero{
     padding: 80px 0 0 80px;
     font-family: monospace;
     font-size: 18px;
@@ -75,17 +75,17 @@ main{
     color: white;
 }
 
-.footer .footer-sections{
+.footer .footer__sections{
     display: flex;
     justify-content: space-between;
 }
 
-.icons{
+.footer__sections{
     text-align: center;
     padding: 20px;
 }
 
-.icons i{
+.footer__sections i{
     padding: 10px;
 }
 
@@ -98,17 +98,17 @@ main{
     font-style: italic;
 }
 
-.portfolios{
-    display: flex;
-    margin: 100px 0;
-}
-
-.experiences{
-    display: flex;
-    margin: 100px 0;
-}
-
 .portfolio{
+    display: flex;
+    margin: 100px 0;
+}
+
+.experience{
+    display: flex;
+    margin: 100px 0;
+}
+
+.portfolio__box{
     margin: 15px;
     box-shadow: 0px 1px 8px 2px gray;
     width: 33%;
@@ -116,12 +116,12 @@ main{
 
 }
 
-.card{
+.portfolio__card{
     margin: 20px;
     padding: 5px;
 }
 
-.card button{
+.portfolio__card button{
     background-color: purple;
     color: white;
     box-shadow: 0px 1px 4px 1px gray;
@@ -130,14 +130,14 @@ main{
     border-radius: 10px;
 }
 
-.experience{
+.experience__box{
     margin: 15px;
     box-shadow: 0px 1px 8px 2px gray;
     border-radius: 10px;
     width: 50%;
 }
 
-.main-experience{
+.experience__body{
     box-shadow: 0px -10px 10px 2px #80808059;
     display: flex;
     justify-content: space-between;
