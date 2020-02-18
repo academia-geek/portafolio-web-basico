@@ -1,0 +1,143 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    border: 2px solid purple;
+}
+
+.header__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu ul{
+    display: flex;
+}
+
+.header__menu li{
+    display: inherit;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__menu a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner{
+    color: white;
+    background-color: gray;
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.portfolio{
+    display: flex;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.portfolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px gray;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.portfolio__box img{
+    border-radius: 10px;
+}
+
+.portfolio__card{
+    margin: 20px;
+    padding: 5px;
+}
+
+.portfolio__card button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px gray;
+}
+
+.title{
+    text-align: center;
+    border-left: 6px solid purple;
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
+.experience{
+    display: flex;
+    margin: 100px 0;
+}
+
+.experience__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px gray;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.experience__body{
+    box-shadow: 0px -10px 10px 2px #80808059;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+.footer .footer__sections{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__sections i{
+    padding: 10px;
+}
+
+.copyright p{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+
+
